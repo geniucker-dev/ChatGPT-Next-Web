@@ -6,8 +6,8 @@ on:
     types: [published]
 
 permissions:
-  deployments: write
-  contents: write
+  packages: write
+  contents: read
 
 jobs:
   push_to_registry:
